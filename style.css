@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+
+    box-shadow: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    
+body {
+    font-family: "Inter";
+    font-style: normal;
+    background-color: #a31717; 
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a31717; 
+    padding: 15px 30px;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+.hamburger {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#nav-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-section {
+    background-color: #a31717; 
+    padding: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo {
+    flex: 1;
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.contact-us {
+    background-color: #3f3434;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.contact-us:hover {
+    background-color: #555;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.companies-section {
+    background-color: #a31717;
+    padding: 40px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.trusted-text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.div-companies {
+    background-color: #857978; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px; 
+}
+
+.div-companies img {
+    max-width: 120px;
+    height: 45px;
+    filter: brightness(0) invert(1); 
+    margin: 0 10px;
+}
+
+.branding-section {
+    background-color: #a31717; 
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+
+}
+
+.branding-content {
+    display: flex; 
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: row; 
+
+}
+
+.branding-image {
+    flex: 1; 
+    text-align: center;
+}
+
+.branding-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.branding-text {
+    flex: 1; 
+    padding-left: 40px;
+    color: white;
+    text-align: left; 
+    max-width: 425px;
+}
+
+#branding-h2 {
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    line-height: 1.3;
+}
+
+#branding-p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8); 
+}
+
+
+
+
+.custome-section {
+    background-color: black;
+    font-size: 36px;
+    line-height: 1.3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.customers-section h1{
+    font-size: 36px;
+    margin: 0 0 20px 0;
+    line-height: 1.3;
+    text-align: center;
+
+}
+.card{
+    background-color: white;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 300px;
+    max-width: 90%;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.cards-section{
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card img img-1{
+    background-color: #FFEED4;
+    border: 8px solid #FFEED4;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+footer .container{
+    width: 100%;
+}
+.footer{
+    display: flex ;
+    position: absolute;
+    width: 100%;
+    background-color: #857978;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-links{
+    margin: 5%;
+    color: white;
+    width: 15%;
+    padding: 0;
+}
+.footer-links h4{
+    padding: 0;
+    font-size: large; 
+    margin-bottom: 10%;
+    display: inline-block;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: white; 
+    font-weight: 200;
+
+}
+
+.footer-links ul li{
+    margin-bottom: 10%;
+    
+}
+
+.footer-links ul {
+    padding: 0;
+    
+}
+
+@media (max-width: 600px) {
+    .footer{
+        background-color: #331B3B;
+        
+    }
+    .logo {
+        font-size: 13px;
+    }
+
+    header{
+        margin-bottom: 60px;
+    }
+
+    .hamburger {
+        display: block; 
+        background-color: black;
+    }
+
+    #nav-menu {
+        display: none;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        height: auto; 
+    }
+
+    .content {
+        flex-direction: column; 
+        align-items: center; 
+        max-width: 100%; 
+    }
+
+    .titulo {
+        padding: 0;
+        margin-bottom: 30px; 
+    }
+
+    .titulo h1 {
+        font-size: 40px;
+        line-height: 1.3; 
+    }
+
+    .description {
+        margin: 10px 0; 
+        font-size: 16px; 
+        padding: 30px;
+    }
+
+    .contact-us {
+        margin-bottom: 20px; 
+        background-color: black;
+    }
+
+    .image {
+        width: 100%; 
+        text-align: center; 
+        margin: 0; 
+    }
+
+    .image img {
+        max-width: 80%; 
+        height: auto; 
+        margin-top: 20px; 
+    }
+
+    .companies-section {
+        padding: 20px 0; 
+        margin-top: 60px;
+    }
+
+    .div-companies {
+        flex-direction:row;
+        padding: 10px;
+        width: 90%; 
+        max-width: 500px; 
+        margin: 0 auto; 
+        background-color: #331B3B;
+    }
+
+    .div-companies img {
+        max-width: 80px; 
+        height: auto; 
+        margin: 10px 0; 
+    }
+
+    
+    .branding-section{
+        flex-direction: column;
+        padding: 5px;
+        text-align: center;
+        height: auto;
+    }
+
+    .branding-content{
+        flex-direction: column-reverse;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .branding-text{
+        padding-right: 30px;
+    }
+
+    #branding-h2{
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    #branding-p{
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+
+    .branding-image {
+        margin-bottom: 60px; 
+    }
+
+
+
+}
+
+
