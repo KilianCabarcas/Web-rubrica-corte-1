@@ -398,12 +398,12 @@ footer .container{
     
 }
 
-.footer-links ul {
+.footer-links ul {  
     padding: 0;
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .footer{
         background-color: #331B3B;
         .footer-links{
